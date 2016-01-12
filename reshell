@@ -1,2 +1,2 @@
-#!/bin/sh
-exec "$SHELL" -l
+#!/bin/env sh
+exec env -i "$SHELL" --login --interactive
